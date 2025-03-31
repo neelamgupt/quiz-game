@@ -8,7 +8,7 @@ playing = input("Are you interested in playing game ? ")
 if playing.lower() != "yes":
     quit()
 
-print("Okay! Let's play :)")
+print("Okay! Let's play :)"
 score = 0
 
 answer = input("Who is prime minister of india? ")
@@ -28,7 +28,7 @@ else:
 answer = input("where is taj mahal located? ")
 if answer.lower() == "agra":
     print('Correct!')
-    score += 1
+    score += 2
 else:
     print("Incorrect!")
 
